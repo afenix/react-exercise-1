@@ -1,0 +1,8 @@
+ {allProps.profiles.map((profile, index)  => (
+          	
+        		<li key={profile.id} className="user-list-item">
+          			Keep going! {profile.userID} 
+          		</li>
+          ))}
+          
+ {Object.keys(allProps.users).map((user, index) => (
